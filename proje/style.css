@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* header */
+
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    background-color: #383838;
+    
+}
+
+.icon a {
+    margin-left: 10px;
+}
+
+.fa-phone{
+    color: white;
+}
+.fa-brands{
+    color: white;
+}
+
+
+
+header{
+    width: 100%;
+    height: 80px;
+    background: #5fa5c1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    
+}
+
+header .logo{
+    width: 80px;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px ;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    background: #fefefe;
+}
+
+.nav-bar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+
+/* noel-img */
+.noel-img{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+/* header end */
+
+
+
+
+
+
+
+/* home slider */
+
+section #home{
+    border-radius: 30px;
+    border: 23px solid black;
+}
+
+.container{
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 30px;
+}
+
+
+
+.container img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+
+
+
+
+/* booking */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 250px;
+    height: 400px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card:hover{
+    background: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.card p:hover{
+    color: white;
+}
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background: url(img/convert-1.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.card-image-2{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background: url(img/convert-2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image-3{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: 100% 100%;
+    background: url(img/convert-3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card h2{
+    margin-top: 10p;
+    text-align: center;
+    font-weight:bolder;
+}
+
+.card p{
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+
+.book-btn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.book-btn span{
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.book-btn button{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #204162;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.book-btn button:hover{
+    font-size: 20px;
+    transition: 1s;
+    
+}
+
+
+
+
+
+
+/* home galery */
+
+.home-galery{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.home-galery img{
+    padding: 20px;
+    width: 480px;
+    max-width: 1200px;
+    
+}
+
+
+/*  .home-galery img:hover{
+    width: 600px;
+    transition: all 1.2s ease;
+}  */
+ 
+
+
+
+    
+
+
+
+
+
+
+
+
+/* <!-- central park description --> */
+
+.cp{
+    
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    min-height: 200px;
+    border: 3px solid #204162;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cp .cp-title{
+    font-size: 2rem;
+    text-indent: 30px;
+}
+
+
+.cp-text{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+
+/* social media */
+.social-media-title{
+    display: flex;
+    justify-content: center;
+    color: #11101b;
+}
+
+.social-media{
+    width:100% ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #11101b;
+}
+
+
+.brands {
+    padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+    border-radius: 10px;
+  }
+
+  .brands:hover {
+    opacity: 0.7;
+}
+
+  .facebook{
+    background: #3B5998;
+    color: white;
+  }
+
+  .youtube{
+    background: #bb0000;
+    color: white;
+  }
+  .instagram{
+    background: #125688;
+    color: white;
+  }
+  .twitter{
+    background: #55ACEE;
+    color: white;
+  }
+  .tiktok{
+    background: black;
+    color: white;
+  }
+
+  .pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+
+  /* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 150px;
+    background-color: #383838;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 100px;
+} 
+
+
+
+.footer .footer-left  ul a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.footer .footer-center a i{
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+
+.footer .call{
+    font-size: 1rem;
+    
+}
+
+.call .map{
+    padding: 10px;
+}
+
+.location{
+    
+    color: white;
+    text-decoration: underline;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1100px){
+    .social-media{
+        width:100% ;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    
+    .brands {
+        padding: 10px;
+      font-size: 20px;
+      text-align: center;
+      margin: 5px 10px;
+        
+      }
+}
+
+@media only screen and (max-width: 768px){
+    .social-media{
+        width:100% ;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    }
+
+    .social-media .social-media-title{
+        font-size: 0.5rem;
+    }
+    
+    
+    .brands {
+        padding: 10px;
+      font-size: 20px;
+      text-align: center;
+      margin: 5px 10px;
+        
+      }
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 1320px){
+    header{
+        padding: 0 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1100px){
+    header{
+        padding: 0 30px;
+    }
+}
+
+@media only  screen and (max-width: 768px){
+    .hamburger{
+        display: block;
+        cursor: pointer;
+
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+
+    .nav-bar{
+        height: 0px;
+       position: absolute;
+       top: 80px;
+       left: 0;
+       right: 0;
+       width: 100vw;
+       background: #68658e;
+       transition: 0.2s;
+       overflow: hidden;
+       z-index: 10000;
+       
+    }
+
+        .nav-bar.active{
+            height: 450px;
+        }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a{
+            margin-bottom: 12px;
+            
+    }
+
+    .noel-img img{
+        width: 50%;
+    }
+
+}
+
+
+@media only  screen and (max-width: 480px){
+    .home-galery{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-galery img{
+        width: 100%;
+    }
+       
+}
+
+
+
+@media only screen and (max-width: 1100px){
+  
+       .footer-logo img{
+           width: 100px;
+        }
+    }
+
+
+@media only screen and (max-width: 768px){
+  
+    .footer{
+    
+        width: 100%;
+        height: 100px;
+       
+    }
+    
+    
+    .footer .footer-left  ul a{
+      
+        
+        padding: 5px 0;
+        font-size: 0.5rem;
+    }
+
+    .footer-logo img{
+        width: 100px;
+    }
+    
+   
+    
+    
+    .footer .call{
+        font-size: 0.5rem;
+        
+    }
+    
+    .call .map{
+        padding: 10px;
+    }
+    
+    .location{
+        
+        color: white;
+        text-decoration: underline;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    }
